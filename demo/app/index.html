@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>gulp打包</title>
+    <link rel="stylesheet" type="text/css" href="statics/styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="statics/styles/index.css">
+  </head>
+  <body>
+  <div id="filelist">
+    <div class="title">Projects</div>
+    <dl>
+    </dl>
+  </div>
+  <div class="buttons-wrap">
+    <dl>
+      <dt><button id="watch" class="btn">监听</button></dt>
+      <dt><button id="dev" class="btn">生产编译</button></dt>
+      <dt><button id="" class="btn">FTP部署</button></dt>
+      <dt><button id="build" class="btn">Zip打包</button></dt>
+    </dl>
+  </div>
+  <div class="icons-wrap">
+    <div class="open">
+      <input type="file" title="{{t 'select_folder_upload'}}" id="webkitdirectory" multiple webkitdirectory>
+    </div>
+    <div class="status-wrap">
+      状态:
+      <span class="status"></span>
+    </div>
+    <div class="cmd-list">List</div>
+  </div>
+  </body>
+  <script>
+    window.$ = window.jQuery = require('./statics/scripts/jquery-1.11.2.min.js');
+  </script>
+  <script>
+    require('./index.js')
+  </script>
+</html>

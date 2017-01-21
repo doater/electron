@@ -1,0 +1,29 @@
+body{
+    backgroud-color:#fff;
+    color:#666766;
+}
+td{
+    height:35px;
+    line-height: 35px;
+    overflow:hidden;
+    text-align: center;
+    border-top:1px solid #D2D3D7;
+    border-left:1px solid #D2D3D7;
+}
+table{
+    width:100%;
+    color:black;
+    border-right:1px solid #D2D3D7;
+    border-bottom:1px solid #D2D3D7;
+}
+.head td{
+    background-color:#E7EFFA;
+    font-weight: 650;
+}
+.tip{
+    cursor: pointer;
+    float:right;
+    width:25px;
+    height:35px;
+    background: url('../../statics/images/tip.png') no-repeat center center;
+}

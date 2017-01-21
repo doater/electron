@@ -1,0 +1,132 @@
+body{
+    backgroud-color:#fff;
+    color:#666766;
+}
+.buttons-wrap{
+    position: fixed;
+    bottom:50px;
+    padding:10px 0px;
+    border-top:1px solid #E7E7E7;
+    border-bottom:1px solid #E7E7E7;
+    width:100%;
+}
+.btn{
+    padding:0px 10px;
+    height:35px;
+    background-color:#fff;
+    border:1px solid #4A90E2;
+    color:#4A90E2;
+    border-radius:3px;
+}
+.btn:hover{
+    border:1px solid #1CA629;
+    color:#1CA629;
+}
+.active{
+    border:1px solid #1CA629;
+    color:#1CA629;
+}
+
+.buttons-wrap dl>dt{
+    float:left;
+    margin-left: 20px;
+}
+.icons-wrap{
+    position: fixed;
+    bottom:15px;
+    width:100%;
+    padding:0 10px;
+}
+.cmd-list{
+    position: absolute;
+    right: 30px;
+    color:#1CA629;
+    cursor: pointer;
+}
+.open{
+    position: relative;
+    float:left;
+    width:20px;
+    height:20px;
+    cursor: pointer;
+    background: url('../../statics/images/open.png') no-repeat center center;
+}
+.open input {
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+    // font-size: 100px;
+    cursor: pointer;
+    opacity: 0;
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+.status-wrap{
+    position: absolute;
+    left:40px;
+    height:20px;
+    line-height:20px;
+    width:300px;
+}
+.status{
+    color:red;
+}
+#filelist{
+    height:400px;
+    overflow-y: scroll;
+}
+#filelist .title{
+    font-size:14px;
+    margin:10px;
+}
+#filelist .col{
+    padding:10px 30px 10px 0px;
+    height:25px;
+    position: relative;
+}
+#filelist .col:hover{
+    background-color:#EEFAF0;
+}
+#filelist .file-active{
+    background-color:#EEFAF0;
+}
+#filelist .border-active{
+    width: 5px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    background-color: #54D560;
+}
+#filelist .file-item{
+    position: relative;
+    left:0;
+    margin-left:30px;
+}
+#filelist .file-item>i{
+    position: absolute;
+    width:30px;
+    height:25px;
+    background: url('../../statics/images/file-item.png') no-repeat center center;
+}
+#filelist .file-item>.name{
+    position: absolute;
+    left:40px;
+    height:15px;
+    line-height:15px;
+}
+#filelist .file-item>.path{
+    position: absolute;
+    left:45px;
+    top:15px;
+    height:10px;
+    line-height:10px;
+    font-size:10px;
+}
+#filelist .col .tip{
+    cursor: pointer;
+    float:right;
+    width:25px;
+    height:25px;
+    background: url('../../statics/images/tip.png') no-repeat center center;
+}
